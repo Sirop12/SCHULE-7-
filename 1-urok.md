@@ -159,4 +159,50 @@ Kate, are you here?
 
 ---
 
-Теперь код на английском с комментариями на русском языке полностью соответствует вашим пожеланиям. Надеюсь, это сделает урок более понятным для учеников!
+# Создаём список покупок
+```
+shopping_list = []
+shopping_list = ['bread', 'milk', 'eggs']
+
+
+# Функция для добавления товара в список покупок
+def add_item(item):
+    shopping_list.append(item)  # Добавляем элемент в список с помощью append
+    if shopping_list[0] == "Молоко":
+        print("Это Молоко") 
+    else:
+        print("Это не Молоко")
+
+"""def print_objaect():
+    print("Все покупки")
+    for top in shopping_list:
+        print(top)"""
+
+# Создаём список покупок
+#add_item('Молоко')  # Вызываем функцию для добавления ''
+#print_objaect()
+
+
+def print_object():
+    print("Все покупки:")
+    for index, item in enumerate(shopping_list, start=1):  # начинаем нумерацию с 1
+        print(index, item)
+
+# Пример использования функции
+print_object()
+
+"""
+index = 0
+def print_object(shopping_list):
+    print("Все покупки:")
+    for item in shopping_list:  
+        global index 
+        index += 1
+        print(index, item)
+
+# Пример использования функции
+shopping_list = ["Яблоко", "Помидор", "Баклажан"]
+print_object(shopping_list)
+"""
+
+```
