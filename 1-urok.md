@@ -1,4 +1,4 @@
-
+ЛУЧШИЙ КУРС ПО Python https://youtube.com/playlist?list=PLRDzFCPr95fLuusPXwvOPgXzBL3ZTzybY&si=cN1ztuVLGEfq1NKG
 ---
 
 ## План урока для изучения списков и других тем в Python
