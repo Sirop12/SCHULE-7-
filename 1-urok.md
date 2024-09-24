@@ -159,7 +159,7 @@ Kate, are you here?
 
 ---
 
-# Создаём список покупок
+# Программы которые можно написать 
 ```
 shopping_list = []
 shopping_list = ['bread', 'milk', 'eggs']
